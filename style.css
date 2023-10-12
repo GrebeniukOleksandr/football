@@ -4,7 +4,7 @@
     background-color: #8dc63f;
     cursor: url(img/cursor.cur), auto;
 }
-.body__wrapper {
+.wrapper {
     margin: auto;
     padding: 0 15px;
     max-width: 960px;
@@ -12,101 +12,101 @@
     box-sizing: border-box;
 }
 
-.body__wrapper--header {
+.header {
     display: flex;
     justify-content: space-between;
     padding: 25px 0;
 }
 
-.body__wrapper--header p {
+.header p {
     margin: 0;
     color: #39930d;
     font-size: 22px;
 }
 
-.body__wrapper--header i {
-    color: #5a5a5a;
-    font-size: 14px;
-}
 
-.body__wrapper--header b {
+
+.header b {
     font-size: 44px;
 }
 
-.body__wrapper--header__logo {
+.header__logo {
     display: flex;
     align-items: center;
 }
 
-.body__wrapper--header__logo b {
+.header__logo b {
     display: block;
 }
 
-.body__wrapper--header__logo img {
+.header__logo img {
     padding: 0 35px;
     transition: all 1s ease;
 }
 
-.body__wrapper--header__logo img:hover {
+.header__logo img:hover {
     padding-left: 200px;
 }
 
-.body__wrapper--header__number {
+.header__number {
     text-align: right;
 }
 
-.body__wrapper--header__number a {
+.header__number a {
     color: #39930d;
     text-decoration: none;
     cursor: url(img/cursor.cur), auto;
 }
 
-.body__wrapper--header__number i {
+.header__number i {
     font-size: 14px;
 }
 
-.body__wrapper--field {
+.field {
     width: 100%;
 }
 
-.body__wrapper--main {
+.main {
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 30px;
     padding-bottom: 40px;
 }
-
-.body__wrapper--main__info p {
+.main__info i {
+    color: #5a5a5a;
+    font-size: 14px;
+}
+.main__info p {
     color: #343434;
     font-size: 14px;
     line-height: 21px;
 }
 
-.body__wrapper--main__info h1 {
+.main__info h1 {
     color: #39930d;
     font-size: 24px;
 }
 
-.body__wrapper--main__aside p {
+.main__aside p {
     font-size: 18px;
 }
 
-.body__wrapper--main__aside nav {
+.main__aside nav {
     text-transform: uppercase;
 }
 
-.body__wrapper--main__aside--green {
+.green {
     padding: 11px 20px;
     color: #fff;
     background-color: #39930d;
 }
 
-.body__wrapper--main__aside--menu {
+.main__menu {
     padding-left: 0;
     list-style: none;
 }
 
-.body__wrapper--main__aside--menu a {
+.main__menu a {
     padding: 7px 20px;
     display: block;
     color: #39930d;
@@ -114,13 +114,13 @@
     cursor: url(img/cursor.cur), auto;
 }
 
-.body__wrapper--main__aside--menu a:hover {
+.main__menu a:hover {
     color: #fff;
     text-decoration: none;
     background-color: #39930d;
     cursor: url(img/cursor.cur), auto;
 }
 
-.body__wrapper--footer p {
+.footer p {
     margin: 0 -15px;
 }
