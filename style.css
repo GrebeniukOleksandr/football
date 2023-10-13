@@ -4,6 +4,7 @@
     background-color: #8dc63f;
     cursor: url(img/cursor.cur), auto;
 }
+
 .wrapper {
     margin: auto;
     padding: 0 15px;
@@ -24,7 +25,10 @@
     font-size: 22px;
 }
 
-
+.header i {
+    font-size: 14px;
+    color: #5a5a5a;
+}
 
 .header b {
     font-size: 44px;
@@ -72,10 +76,12 @@
     gap: 30px;
     padding-bottom: 40px;
 }
+
 .main__info i {
     color: #5a5a5a;
     font-size: 14px;
 }
+
 .main__info p {
     color: #343434;
     font-size: 14px;
